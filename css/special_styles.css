@@ -1,0 +1,164 @@
+@media (min-width: 400px) and (max-width: 600px) {
+  .header_nav,
+  .manufacturing_content__exsp {
+    display: none;
+  }
+  .header {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    background-color: #03989e;
+  }
+  .wrapper {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .header_limb__logo {
+    color: white;
+    font-size: 20px;
+  }
+  .header_nav__item {
+    color: white;
+  }
+  .header_phones {
+    background-image: none;
+    width: 170px;
+  }
+  .header_phones__number {
+    color: white;
+    font-size: 17px;
+  }
+  .menu-btn {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    display: block;
+  }
+  .menu-btn span {
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    transition: all 0.5s;
+  }
+  .menu-btn span:nth-of-type(2) {
+    top: calc(50% - 5px);
+  }
+  .menu-btn span:nth-of-type(3) {
+    top: calc(50% + 5px);
+  }
+  .menu-btn.active span:nth-of-type(1) {
+    display: none;
+  }
+  .menu-btn.active span:nth-of-type(2) {
+    top: 50%;
+    transform: translate(-50%, 0%) rotate(45deg);
+  }
+  .menu-btn.active span:nth-of-type(3) {
+    top: 50%;
+    transform: translate(-50%, 0%) rotate(-45deg);
+  }
+  .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 80px 0 15px 45px;
+    background: #03989e;
+    transform: translateX(-100%);
+    transition: transform 0.5s;
+    display: block;
+  }
+  .menu.active {
+    transform: translateX(0);
+  }
+  .menu li {
+    list-style-type: none;
+    line-height: 30px;
+  }
+  .manufacturing_content__protens__h1 {
+    margin-top: 115px;
+    line-height: 38px;
+    font-size: 27px;
+    text-align: left;
+  }
+  .manufacturing_content__protens {
+    padding: 0 0 30px;
+  }
+  .manufacturing {
+    box-shadow: 0 0 0 1028px rgb(0 0 0 / 50%) inset;
+    height: 100%;
+    background-position: 60% 120%;
+    padding: 15px;
+    background-size: 687px;
+    height: 500px;
+  }
+  .manufacturing_content__compens {
+    max-width: 560px;
+    width: 100%;
+  }
+  .manufacturing_content__compens__h2 {
+    font-size: 14px;
+  }
+  .manufacturing_content__button {
+    max-width: 560px;
+    width: 100%;
+    height: 63px;
+    font-size: 14px;
+    margin-top: 30px;
+  }
+  .services_head {
+    padding: 45px 15px;
+  }
+  .services_head > h1 {
+    font-size: 28px;
+  }
+  .services_head__hr {
+    max-width: 560px;
+    width: 80%;
+    border: #03989e solid 2px;
+  }
+  .services_possibilities {
+    flex-direction: column;
+    padding-top: 0;
+    gap: 30px;
+  }
+  .services_possibilities__item {
+    width: 100%;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+  }
+  .services_possibilities__item__text {
+    height: 100%;
+  }
+  .mission {
+    margin: 0;
+    padding: 0;
+    background-image: none;
+    background-color: #03989e;
+  }
+  .mission_cont {
+    flex-direction: column;
+    padding: 30px 15px;
+    gap: 30px;
+  }
+  .mission_cont__img {
+    width: 100%;
+    max-width: 560px;
+  }
+  .mission_cont__block__text {
+    padding: 15px;
+  }
+  .mission_cont__block__text > p {
+    font-size: 17px;
+  }
+  .mission_cont__img {
+    width: inherit;
+  }
+}

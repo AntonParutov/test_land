@@ -1,0 +1,215 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.wrapper {
+  margin: 0 auto;
+  max-width: 1290px;
+}
+.header {
+  height: 164px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1290px;
+  margin: 0 auto;
+}
+.menu, .menu-btn {
+  display: none;
+}
+.header_limb__logo {
+  color: #03989e;
+  font-size: 84px;
+  font-weight: bold;
+}
+.header_nav__item {
+  font-size: 17px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+.header_nav {
+  max-width: 746px;
+  width: 100%;
+}
+.header_nav ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+.header_nav ul li {
+  list-style-type: none;
+  text-align: center;
+}
+.header_phones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+  width: 304px;
+  height: 84px;
+  background-image: url(../images/block1_bgrnd_phones.png);
+  background-size: cover;
+}
+.header_phones__number {
+  color: white;
+  text-decoration: none;
+}
+.manufacturing {
+  background-color: #03989e;
+  background-image: url(../images/block1_bgrnd_man.png);
+  height: 634px;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+.manufacturing_content__protens {
+  padding: 90px 0 20px;
+}
+.manufacturing_content__protens__h1 {
+  font-size: 42px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 52px;
+  margin: 0;
+}
+.manufacturing_content__compens {
+  width: 530px;
+  height: 63px;
+  background-color: white;
+  border-radius: 31.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.manufacturing_content__compens__h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.manufacturing_content__exsp {
+  display: flex;
+  gap: 46px;
+  padding: 50px 0 50px 20px;
+}
+.manufacturing_content__exsp__item__head {
+  font-size: 38px;
+  color: white;
+  font-weight: bold;
+}
+.manufacturing_content__exsp__item__text {
+  font-size: 17px;
+  line-height: 20px;
+  color: white;
+  font-weight: bold;
+}
+.manufacturing_content__button {
+  width: 514px;
+  height: 81px;
+  border-radius: 40.5px;
+  background-color: #eb5b00;
+  border: #eb5b00 none;
+  cursor: pointer;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+}
+.services_head {
+  padding-top: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services_head > h1 {
+  text-transform: uppercase;
+  font-size: 42px;
+  line-height: 52px;
+  font-weight: 500;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 16px;
+}
+.services_head__hr {
+  width: 420px;
+  border: #03989e solid 5px;
+  text-align: center;
+}
+.services_possibilities {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 45px;
+}
+.services_possibilities__item {
+  width: 372px;
+  background-color: #03989e;
+  border-top-right-radius: 35px;
+  border-top-left-radius: 35px;
+}
+.services_possibilities__item__img > img {
+  width: 240px;
+  height: 240px;
+}
+.services_possibilities__item__img {
+  text-align: center;
+  padding: 20px;
+}
+.services_possibilities__item__text {
+  background-color: white;
+  border: #03989e solid 3px;
+  padding: 15px;
+  height: 324px;
+}
+.services_possibilities__item__text > h1 {
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 36px;
+  text-transform: uppercase;
+  margin: 0;
+  color: #eb5b00;
+  padding-bottom: 15px;
+}
+.services_possibilities__item__text > ul {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.services_possibilities__item__text > ul > li {
+  list-style: none;
+  font-size: 17px;
+  line-height: 20px;
+  padding-left: 60px;
+  background-image: url(../images/block2_li.png);
+  background-repeat: no-repeat;
+}
+.mission {
+  background-image: url(../images/block3_bgrnd.png);
+  background-size: cover;
+  margin-top: 45px;
+}
+.mission_cont__img {
+  width: 525px;
+}
+.mission_cont {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0;
+  align-items: center;
+}
+.mission_cont__block__text {
+  padding-left: 65px;
+}
+.mission_cont__block__text p {
+  font-size: 24px;
+  line-height: 36px;
+  color: white;
+}
