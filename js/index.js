@@ -1,6 +1,6 @@
 let menuBtn = document.querySelector(".menu-btn");
 let menu = document.querySelector(".menu");
-let link = document.querySelectorAll(".header_nav__item");
+let link = document.querySelector("a.header_nav__item");
 
 menuBtn.addEventListener("click", function () {
   menuBtn.classList.toggle("active");
@@ -8,4 +8,5 @@ menuBtn.addEventListener("click", function () {
 });
 link.addEventListener("click", function () {
   menu.classList.remove("active");
+  menuBtn.classList.remove("active");
 });
